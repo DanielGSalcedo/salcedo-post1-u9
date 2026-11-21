@@ -116,6 +116,12 @@ JaCoCo y lo publica como artefacto descargable.
 ### Estado del pipeline
 
 - Badge: ![CI](https://github.com/DanielGSalcedo/salcedo-post1-u9/actions/workflows/ci.yml/badge.svg)
+- Última ejecución exitosa: <https://github.com/DanielGSalcedo/salcedo-post1-u9/actions/runs/44866117738>
 - Ejecuciones: <https://github.com/DanielGSalcedo/salcedo-post1-u9/actions/workflows/ci.yml>
+
+Resultado: `completed / success`, job `build-and-test` en 21 s, artefacto
+`jacoco-report` de 198 KB publicado. La ejecución #1 (commit `3935479`) también
+terminó en verde en 39 s; la #2 solo actualizó las acciones a sus versiones
+vigentes (`checkout@v7`, `setup-java@v6`, `upload-artifact@v7`).
 
 ![Pipeline en verde](capturas/ci-success.png)

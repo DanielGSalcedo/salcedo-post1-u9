@@ -265,6 +265,8 @@ Cobertura local: **77 % de instrucciones**, **82 % de líneas** y **75 % de rama
 | 7 | `test(integration): agregar DataJpaTest y SpringBootTest con H2 y gateway mockeado` | Parte 2 |
 | 8 | `ci: configurar pipeline de GitHub Actions con reporte de cobertura` | Parte 2 |
 | 9 | `docs: completar README con decisiones de diseno, evidencias y badge` | Ambas |
+| 10 | `ci: actualizar actions a sus versiones vigentes sin deprecaciones` | Parte 2 |
+| 11 | `docs: agregar captura del pipeline en verde` | Ambas |
 
 ---
 
