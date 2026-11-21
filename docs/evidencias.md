@@ -97,14 +97,14 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-java@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-java@v6
         with:
           java-version: "21"
           distribution: "temurin"
           cache: maven
       - run: mvn -B verify --no-transfer-progress
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: jacoco-report
           path: target/site/jacoco
